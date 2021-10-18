@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{57c818ac-3ad9-417d-878a-d1f84760291e}</ProjectGuid>
-    <RootNamespace>FisrtStep</RootNamespace>
+    <ProjectGuid>{d833b273-f380-4e20-b918-172a6fe92479}</ProjectGuid>
+    <RootNamespace>NameSpace</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FirstStep.cpp" />
+    <ClCompile Include="NameSpace.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
