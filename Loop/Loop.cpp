@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+	
 	/* if문 : a가 b 보다 작을 경우 a와 b의 값을 변경 */
 	int a, b;
 
@@ -18,7 +19,7 @@ int main()
 	cout << "a의 값 : " << a << endl;	// a : 5
 	cout << "b의 값 : " << b << endl;	// b : 1
 	
-
+	
 
 	/* switch 문 */
 	int score;
@@ -52,9 +53,9 @@ int main()
 	}
 	cout << total;		// 출력 : 55
 
+	
 
-
-	/* 반복문 - 2. 배열과 for문 */
+	/* 반복문 - 2. 배열과 for문*/
 	int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 	int sum = 0;
 
@@ -64,7 +65,7 @@ int main()
 	}
 	cout << "합계 = " << sum;	//출력 : 55
 
-
+	
 
 	/* 반복문 - 3. 배열과 for문, 참조변수 */
 	int arr2[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -74,5 +75,24 @@ int main()
 		++a;			// arr2항목 하나의 값마다 1씩 더한다.
 	}
 	cout << "배열 3번방의 값 : 4 -> 변화된 값 : " << arr2[3]; // 출력 : 배열 3번방의 값 : 4 -> 변화된 값 : 5
+	
 
+	/* while 문과 for문*/
+	
+	cin >> val;	// 입력 : 3, 2, 1, 0
+	while (val > 0)	
+	{
+		// 0보다 큰 수가 입력되면 true가 되어 반복문이 돌아 total에 합이 되고, 0이나 음수가 입력되면 false가 되어 빠져나간다.
+		total += val;
+		cin >> val;
+	}
+	cout << total; // 출력 : 6
+		
+	// 위의 while문을 for문으로 만들면 아래와 같이 된다.
+	for (cin >> val; val > 0; cin >> val) // 입력 : 5, 3, 2, 0
+	{
+		total += val;
+	}
+	cout << total; // 출력 : 6
+	
 }
