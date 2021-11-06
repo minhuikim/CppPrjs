@@ -61,6 +61,8 @@ float area(const Circle& c)
 
 int main()
 {
+	cout << "202134-365627 ±è¹ÎÈñ" << endl;
+
 	Circle circle = {1, 2, 3};
 	inputData(circle);
 	cout << "ÀÔ·ÂµÈ ¿øÀÇ Á¤º¸" << endl;
