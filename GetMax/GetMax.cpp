@@ -33,6 +33,13 @@ int main()
 	{
 		cout << data[i] << " ";
 	}
+
+	cout << "\nfloat µ¥ÀÌÅÍ : ";
+	for (int i = 0; i < 10; i++)
+	{
+		cout << data_flt[i] << " ";
+	}
+
 	cout << endl << endl;
 	cout << "ÃÖ´ñ°ª = " << getMax(data, 10) << endl;
 	cout << "flt ÃÖ´ñ°ª = " << getMax(data_flt, 10) << endl;
