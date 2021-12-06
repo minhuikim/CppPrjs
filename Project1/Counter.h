@@ -9,7 +9,7 @@ public :					// public 멤버 함수
 		{ value = 0; }
 	void count()			// 계수기의 값을 1 증가시킴
 		{ ++value; }
-	void getValue() const	// 계수기의 현재 값을 반환함
+	int getValue() const	// 계수기의 현재 값을 반환함
 		{ return value; }
 };
 
