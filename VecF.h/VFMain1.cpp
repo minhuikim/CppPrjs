@@ -2,6 +2,7 @@
 using namespace std;
 #include "VecF.h"
 
+/*
 int main()
 {
 	float a[3] = { 1, 2, 3 };
@@ -13,3 +14,9 @@ int main()
 	cout << endl;
 	return 0;
 }
+*/
+/*
+* 1번 결과물
+[ 1 2 3  ]
+[ 1 2 3  ]
+*/
