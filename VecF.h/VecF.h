@@ -16,6 +16,10 @@ public :
 		arr = new float[n];
 		memcpy(arr, fv.arr, sizeof(float) * n);
 	}
+	VecF(VecF&& fv) : n{ fv.n }, arr{ fv.arr } {
+		fv.arr = nullptr;
+		fv.n = 0;
+	}
 	~VecF() {
 		delete[] arr;
 	}
