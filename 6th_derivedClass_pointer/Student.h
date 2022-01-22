@@ -13,7 +13,7 @@ public :
 	string getSchool() const { return school; }
 	void print() const {
 		Person::print();
-		cout << "goes to " << school;
+		cout << " goes to " << school;
 	}
 };
 
